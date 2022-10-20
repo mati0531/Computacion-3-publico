@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+	body {
+		background-color: antiquewhite;
+		font-family: 'Titillium Web', sans-serif; 
+	}
+
+	main {
+		display: flex;		
+	}
+
+	
+
+ 	.botonera ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+	font-size: 20px;
+	padding: 30px;
+	background-color:#343434;
+
+}
+
+.botonera ul li a {
+	text-decoration: none;
+	color: antiquewhite;
+}
+
+	.imagen {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+.rectangulo {
+	/* height: 100%; */
+	width: 250px;
+	background-color:#343434;
+	padding-top: 20px;
+	display: inline-block;	
+}
+
+.estudios {
+	display: flex;
+	flex-direction: column;
+	color: aliceblue;
+	font-size: 15px;
+	margin: 15px;
+}
+
+.titulo-estudio {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-size: 30px;
+}
+
+.estudios p {
+	padding-bottom: 15px;
+}
+
+
+ .nombre {
+	flex: auto;
+	text-align: center;
+	padding: 20px;
+	font-size: 30px;
+ }
+
+.cuerpo .experiencia{
+	padding: 30px;
+	font-size: 20px;
+}
+
+span{
+	display: block; 
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+ footer {
+	display: flex;
+	justify-content: center;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 30px;
+	background-color: #343434;
+	color: aliceblue;
+ }
+
+ .iconos{
+	height: 30px;
+	width: 30px;
+	margin-right: 20px;
+	margin-left: 20px;
+ }
+
+@media screen and (max-width: 600px){
+	
+	#contacto { font-size: 15px;
+	width: 100%;}
+	
+	.botonera{
+		flex-direction: column;
+		display: flex;}
+	
+	main { flex-direction: column;}
+	
+	.rectangulo{
+		width: 100%;
+	}
+	
+	.info {
+		text-align: center;
+	}
+}
